@@ -1,0 +1,44 @@
+
+.navbar {
+    width: 100%;
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    position: inherit;
+    padding: 1rem 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+
+  .navlink {
+    color: #1d4ed8; 
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5em 1em;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 8px;
+  }
+
+  .navlink:hover {
+    color: #ffffff;
+    background-color: #1d4ed8; 
+  }
+  
+  .navlink.active {
+    color: #ffffff;
+    background-color: #2563eb; 
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      padding: 1rem;
+    }
+    .navbar NavLink {
+      padding: 1rem;
+    }
+  }
+  
