@@ -1,4 +1,4 @@
-# 📋✨ PasteApp 
+# 📋✨ PasteApp  
 
 A simple yet powerful React app for saving, organizing, and accessing text snippets or code effortlessly! PasteApp ensures all your frequently used text is at your fingertips, even across sessions.
 
